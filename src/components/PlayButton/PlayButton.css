@@ -1,0 +1,30 @@
+.play-button {
+    border-style: none;
+    border-radius: 128px;
+    background-color: #0a68bb;
+    color: #fff;
+    padding: 12px 32px;
+    font-size: 32px;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px #000f;
+}
+
+.play-button-enabled {
+    cursor: pointer;
+}
+
+.play-button-enabled:hover {
+    transition: 0.3s;
+    filter: brightness(90%);
+}
+
+.play-button-enabled:active {
+    transition: 0.3s;
+    filter: brightness(80%);
+    box-shadow: 0px 0px 4px #0008;
+}
+
+.play-button-disabled {
+    filter: brightness(50%) saturate(50%);
+    cursor: not-allowed;
+}
